@@ -28,7 +28,7 @@ class Usuario {
 }
 const user = new Usuario ("Facundo", "Agudo")
 user.getFullName()
-user.addMascotas("perro", "loro", "gato","Hamster")
+user.addMascotas("perro", "loro", "gato","Hamster", "Conejo")
 
 console.log(user.mascotas)
 user.countMascotas()
